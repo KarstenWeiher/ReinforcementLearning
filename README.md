@@ -30,9 +30,10 @@ Tic Tac Toe is a simple game, which makes it a good starting point to learn rein
 To evaluate the models I use a metric based on playing against an opponent that makes random moves. 
 In the evaluation the model will always start the game.  
 
-$$
-\text{score} = \frac{n_{\text{won}} - n_{\text{lost}}}{n_{\text{games}}}
-$$  
+<p align="center">
+  <img src="images\score.png" alt="Diagramm" width="25%" />
+</p> 
+
 This metric can be between -1 and 1. 
 If the model makes random moves the score will be around 0.3.  
 The board state is encoded as a length 9 array with 0 for empty fields, 1 for the first player with token x and 2 for the second player with token o.
